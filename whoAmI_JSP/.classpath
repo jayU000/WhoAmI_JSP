@@ -1,17 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-11.0.12">
+	<classpathentry exported="true" kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk-11.0.12">
 		<attributes>
+			<attribute name="module" value="true"/>
 			<attribute name="owner.project.facets" value="java"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v9.0">
 		<attributes>
 			<attribute name="owner.project.facets" value="jst.web"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry exported="true" kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+	<classpathentry exported="true" kind="lib" path="C:/aigb_0900_yjh/dbms/mysql/resource/mysql-connector-java-8.0.27/mysql-connector-java-8.0.27.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/aigb_0900_yjh/java/resource/java-sdk v2.2/lib/javaSDK-2.2.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/aigb_0900_yjh/java/resource/java-sdk v2.2/lib/json-simple-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/aigb_0900_yjh/jsp/resource/activation-1.1.1.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/aigb_0900_yjh/jsp/resource/mail-1.4.7.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/aigb_0900_yjh/jsp/resource/jakarta-taglibs-standard-1.1.2/lib/jstl.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/aigb_0900_yjh/jsp/resource/jakarta-taglibs-standard-1.1.2/lib/standard.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/aigb_0900_yjh/jsp/resource/cos-20.08/lib/cos.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/aigb_0900_yjh/jsp/resource/mybatis-3.5.9/mybatis-3.5.9.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
